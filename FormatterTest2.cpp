@@ -1,10 +1,12 @@
 #include <iostream>
 #if WITH_EDITOR
 int i = 9;
-int j = 8;
+int j = 999;
 #endif
-void MyTestFunction() {
-  if (false) {
-    td::cout << "hellow";
-  }
+void MyTestFunction()
+{
+	if (false)
+	{
+		td::cout << "hellow";
+	}
 }
