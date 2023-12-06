@@ -25,7 +25,7 @@ Set "out=.\.git\hooks"
  Echo       # Check if the file extension is .cpp, .h, or .hpp
  Echo       if [[ $line == *.cpp ^|^| $line == *.h ^|^| $line == *.hpp ]]; then
  Echo         # Format the file with clang-format
- Echo 		   echo "[$line]" is being formatted using the clang-format style $style
+ Echo 		  echo "[$line]" is being auto formatted using the custom clang-format style $style
  Echo         clang-format -style=$style -i $(pwd^)/${line:3}
  Echo         # Add the formatted file to the staging area
  Echo         git add $(pwd^)/${line:3}
