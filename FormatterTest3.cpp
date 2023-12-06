@@ -7,6 +7,6 @@ void MyTestFunction()
 {
 	if (false)
 	{
-		std::cout << "hellow";
+		std::cout << "hellow22";
 	}
 }
