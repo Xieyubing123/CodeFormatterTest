@@ -43,8 +43,7 @@ Set "outDir=."
 (
 Echo StatementMacros: ['UPROPERTY', 'UFUNCTION', 'UCLASS', 'USTRUCT', 'UENUM', 'UINTERFACE', 'GENERATED_BODY']
 Echo Language: Cpp
-Echo BasedOnStyle: LLVMEcho 
-
+Echo BasedOnStyle: LLVM
 Echo AccessModifierOffset: -4
 Echo AlignAfterOpenBracket: DontAlign
 Echo AlignConsecutiveDeclarations: true
